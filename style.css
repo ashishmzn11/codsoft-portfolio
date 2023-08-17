@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:500px) {
+    header {
+        max-width: 100%;
+        font-size: 10px;
+    }
+
+}
+
+/* .home-header {
+    max-width: 700%;
+} */
+body{
+    /* background-color: rgb(227, 224, 224); */
+    background: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 150% ;
+}
+header {
+    position: relative;
+    width: 100%;
+    margin: 0auto;
+    position: relative;
+}
+
+a {
+    color: black;
+}
+
+.logo:hover {
+    background-color: rgb(108, 103, 103);
+}
+
+ .home-header {
+    float:left;
+    /* margin-top: 100px; */
+    margin: 20px;
+    /* border: 2px solid rgb(209, 208, 208); */
+    background-color: #ceedf4ef;
+    margin-top: 40px;
+    position: fixed;
+    /* background-color: rgb(250, 115, 115); */
+    padding: 10px;
+    width: 300px;
+    height: 550px;
+  border-radius: 8px;
+ 
+}
+ .links{
+margin-left: 25px;
+margin-top: 10px;
+}
+.name{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.header-link ul {
+    list-style: none;
+}
+
+.link:hover {
+    background-color: rgb(21, 240, 14);
+    color: black;
+}
+
+.header-link ul li {
+    /* width: 95%; */
+    display: inline;
+    margin-right: 15px;
+}
+.header-link{
+    
+    /* background-color: #addbf9b3; */
+    margin-bottom : 20px;
+    position: fixed;
+    float:left;
+    /* background-color:#270bd971; */
+    margin-top: 10px;
+    margin-left: 10px;
+    position: fixed;
+    background-color: #d7f0f6;
+    padding: 10px;
+    width: 300px;
+    height: 550px;
+    font-size: 20px;
+    margin-right: 80px;
+    /* box-shadow: 5px 5px 5px #d82b2b; */
+  border-radius: 8px;
+    
+}
+.header-link ul li a,
+.header-link .logo {
+    text-decoration: none;
+    width: 200px;
+    display:flex;
+    justify-content: space-between;
+}
+/* About me */
+/* h{font-size: 100px;} */
+.about-body{margin: 20px;
+    margin-left: 470px;
+    padding: 20px;
+    width: 850px;
+    height: 580px;
+    /* border: 2px solid black; */
+    background-color: #7df0f00d;
+    box-shadow: 10px 10px 20px #2b2a2a;
+    backface-visibility: hidden;
+  border-radius: 20px;
+}
+.about-body::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+ h1{font-size: 40px;
+    text-align: center;
+    /* color: white; */
+}
+.about{
+    font-size: larger;
+    /* border:2px solid black */
+    float:left;
+}
+.about::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.about-intro{margin-top:30px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* letter-spacing: 5px; */
+    word-spacing: 7px;
+    line-height: 15px;
+    /* color: white;   */
+}
+span{
+    color: red;
+    font-size: 30px;
+}
+ ul {font-size: 25px;
+    list-style: none;
+}
+li{ 
+    /* color: red; */
+    margin-top: 20px;
+    
+}
+.about-socal{
+     /* color: white; */
+    /* border:2px solid red; */
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+svg{
+    font-size: 500px;
+}
+.education{
+    margin-top: 100px;
+    /* color:white; */
+    
+}
+.edu{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top:100px ;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.edu-data{
+    font-size: 25px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.btn{
+    background-color: rgb(29, 238, 71);
+    padding: 10px;
+    border-radius: 18px;
+
+}
